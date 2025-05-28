@@ -1,113 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Serviços - Grupo Infotech IT</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infotech - Soluções em Informática</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Infotech</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-  <img src="logo.png" alt="Logo Grupo Infotech IT" width="150" />
-  <h1>Grupo Infotech IT</h1>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="servicos.html">Serviços</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
-</header>
+  <section id="home">
+    <h2>Bem-vindo à Infotech</h2>
+    <p>Oferecemos soluções completas em informática para você e sua empresa.</p>
+  </section>
 
-<section class="animate">
-  <h2>Nossos Serviços</h2>
+  <section id="contato">
+    <h2>Contato</h2>
+    <form action="https://formspree.io/f/mgepybqe" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
-  <article>
-    <img src="img/manutencao.jpg" alt="Manutenção de Computadores" class="servico-img" />
-    <h3>🔧 Manutenção de Computadores e Notebooks</h3>
-    <p>
-      Realizamos diagnósticos precisos e reparos eficientes para garantir o funcionamento ideal dos seus
-      equipamentos, aumentando sua vida útil.
-    </p>
-  </article>
+  <footer>
+    <p>&copy; 2025 Infotech | <a href="https://www.instagram.com/grupoinfotechit/" target="_blank">Instagram</a></p>
+  </footer>
 
-  <article>
-    <img src="img/formatacao.jpg" alt="Formatação e Softwares" class="servico-img" />
-    <h3>💾 Formatação e Instalação de Softwares</h3>
-    <p>
-      Preparamos seu sistema para operar com máxima performance, instalando os programas essenciais de forma
-      segura e personalizada.
-    </p>
-  </article>
+  <a href="https://wa.me/5569992331200" class="whatsapp-float" target="_blank" title="Fale conosco pelo WhatsApp">
+    💬 Fale Conosco
+  </a>
 
-  <article>
-    <img src="img/pecas.jpg" alt="Peças e Acessórios" class="servico-img" />
-    <h3>🖥️ Venda de Peças e Acessórios de Informática</h3>
-    <p>
-      Oferecemos produtos de qualidade e procedência garantida, com orientação especializada para você fazer a
-      melhor escolha.
-    </p>
-  </article>
-
-  <article>
-    <img src="img/redes.jpg" alt="Redes e Infraestrutura de TI" class="servico-img" />
-    <h3>🌐 Redes e Infraestrutura de TI</h3>
-    <p>
-      Projetamos e implementamos redes eficientes e seguras, assegurando conectividade estável e suporte
-      contínuo para o seu negócio.
-    </p>
-  </article>
-
-  <article>
-    <img src="img/recuperacao.jpg" alt="Recuperação de Dados" class="servico-img" />
-    <h3>🔍 Recuperação de Dados</h3>
-    <p>
-      Utilizamos técnicas avançadas para recuperar arquivos importantes perdidos em HDs, SSDs e outros dispositivos
-      de armazenamento.
-    </p>
-  </article>
-
-  <article>
-    <img src="img/suporte.jpg" alt="Suporte Técnico Especializado" class="servico-img" />
-    <h3>🛠️ Suporte Técnico Especializado</h3>
-    <p>
-      Atendimento ágil e profissional, presencial ou remoto, solucionando problemas e orientando usuários com total
-      eficiência.
-    </p>
-  </article>
-
-  <article>
-    <img src="img/impressoras.jpg" alt="Manutenção de Impressoras" class="servico-img" />
-    <h3>🖨️ Manutenção de Impressoras (HP, Epson e outras)</h3>
-    <p>
-      Realizamos manutenção preventiva e corretiva, garantindo o pleno funcionamento e prolongando a vida útil do seu
-      equipamento.
-    </p>
-  </article>
-
-  <article>
-    <img src="img/suporte-remoto.jpg" alt="Suporte Remoto e Instalação de Programas" class="servico-img" />
-    <h3>💻 Suporte Remoto e Instalação de Programas</h3>
-    <p>
-      Soluções práticas e rápidas, com atendimento remoto para instalação de softwares e resolução de problemas sem
-      sair de casa ou do escritório.
-    </p>
-  </article>
-</section>
-
-<footer>
-  <p>
-    &copy; 2025 Grupo Infotech IT | <a href="https://www.instagram.com/grupoinfotechit/" target="_blank"
-      >Instagram</a
-    >
-  </p>
-</footer>
-
-<a href="https://wa.me/5569992331200" class="whatsapp-float" target="_blank" title="Fale conosco pelo WhatsApp">
-  💬 Fale Conosco
-</a>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
